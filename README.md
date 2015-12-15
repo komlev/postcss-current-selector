@@ -1,6 +1,6 @@
 # PostCSS Current Selector [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin which helps you get yocurrent selector.
+[PostCSS] plugin which helps you get your current selector.
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/komlev/postcss-current-selector.svg
