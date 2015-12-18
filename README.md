@@ -8,13 +8,13 @@
 
 ```css
 .foo {
-    /* Input example */
+    $c: %@;
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+    $c: .foo;
 }
 ```
 
@@ -24,4 +24,25 @@
 postcss([ require('postcss-current-selector') ])
 ```
 
-See [PostCSS] docs for examples for your environment.
+## Options
+
+### `symbol`
+
+By default, plugin will replace `%@` match in the declaration, but it could be changed with this option:
+
+```js
+postcss([ require('postcss-nested')({ symbol: '*@' }) ]
+```
+will look for `*@` text in declaration
+
+```css
+.foo {
+    content: "*@";
+}
+```
+
+```css
+.foo {
+    content: ".foo";
+}
+```

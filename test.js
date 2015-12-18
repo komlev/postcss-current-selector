@@ -12,3 +12,7 @@ function run(t, input, output, opts = { }) {
 test('gets selector in class rule', t => {
     return run(t, '.class{content:"%@"}', '.class{content:".class"}');
 });
+
+test('set symbol through options', t => {
+    return run(t, 'a{content:"*@"}', 'a{content:"a"}', { symbol: '*@' });
+});
