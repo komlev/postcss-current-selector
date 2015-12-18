@@ -16,3 +16,4 @@ test('gets selector in class rule', t => {
 test('set symbol through options', t => {
     return run(t, 'a{content:"*@"}', 'a{content:"a"}', { symbol: '*@' });
 });
+
