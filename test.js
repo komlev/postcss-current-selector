@@ -1,8 +1,6 @@
 import postcss from 'postcss';
 import test    from 'ava';
-
 import plugin from './';
-
 function run(t, input, output, opts = { }) {
     return postcss([ plugin(opts) ]).process(input)
         .then( result => {
@@ -12,13 +10,5 @@ function run(t, input, output, opts = { }) {
 }
 
 test('gets selector in class rule', t => {
-  return run(t, 'a{content:"%@"}', 'a{content:"a"}')
-})
-
-/* Write tests here
-
-test('does something', t => {
-    return run(t, 'a{ }', 'a{ }', { });
+    return run(t, 'a{content:"%@"}', 'a{content:"a"}');
 });
-
-*/
