@@ -11,6 +11,10 @@ function run(t, input, output, opts = { }) {
         });
 }
 
+test('gets selector in class rule', t => {
+  return run(t, 'a{content:"%@"}', 'a{content:"a"}')
+})
+
 /* Write tests here
 
 test('does something', t => {

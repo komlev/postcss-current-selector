@@ -1,7 +1,7 @@
 {
   "name": "postcss-current-selector",
   "version": "0.0.0",
-  "description": "PostCSS plugin which helps you get yocurrent selector",
+  "description": "PostCSS plugin which helps you get your current selector",
   "keywords": [
     "postcss",
     "css",
