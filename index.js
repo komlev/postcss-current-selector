@@ -1,5 +1,5 @@
 var postcss = require('postcss');
-module.exports = postcss.plugin('postcss-reverse-props', function (opts) {
+module.exports = postcss.plugin('postcss-current-selector', function (opts) {
     if (!opts) opts = {};
     opts.symbol = opts.symbol || '%@';
     return function (css) {
