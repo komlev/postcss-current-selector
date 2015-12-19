@@ -1,0 +1,35 @@
+{
+  "name": "postcss-current-selector",
+  "version": "0.0.1",
+  "dependencies": {
+    "postcss": {
+      "version": "5.0.12",
+      "from": "postcss@>=5.0.10 <6.0.0",
+      "resolved": "https://registry.npmjs.org/postcss/-/postcss-5.0.12.tgz",
+      "dependencies": {
+        "supports-color": {
+          "version": "3.1.2",
+          "from": "supports-color@>=3.1.2 <4.0.0",
+          "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-3.1.2.tgz",
+          "dependencies": {
+            "has-flag": {
+              "version": "1.0.0",
+              "from": "has-flag@>=1.0.0 <2.0.0",
+              "resolved": "https://registry.npmjs.org/has-flag/-/has-flag-1.0.0.tgz"
+            }
+          }
+        },
+        "source-map": {
+          "version": "0.5.3",
+          "from": "source-map@>=0.5.1 <0.6.0",
+          "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.3.tgz"
+        },
+        "js-base64": {
+          "version": "2.1.9",
+          "from": "js-base64@>=2.1.9 <3.0.0",
+          "resolved": "https://registry.npmjs.org/js-base64/-/js-base64-2.1.9.tgz"
+        }
+      }
+    }
+  }
+}
