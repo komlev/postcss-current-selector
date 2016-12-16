@@ -2,8 +2,13 @@
 
 [PostCSS] plugin which helps you get your current selector.
 [postcss-simple-vars]: https://github.com/postcss/postcss-simple-vars
+[postcss-nested-ancestors]: https://github.com/toomuchdesign/postcss-nested-ancestors
 
 Works great with [postcss-simple-vars] for example to get your current selector as a variable
+
+Alternativly you can use [postcss-nested-ancestors] plugin to reference parent selectors
+
+https://github.com/toomuchdesign/postcss-nested-ancestors
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/komlev/postcss-current-selector.svg
