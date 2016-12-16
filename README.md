@@ -8,8 +8,6 @@ Works great with [postcss-simple-vars] for example to get your current selector 
 
 Alternativly you can use [postcss-nested-ancestors] plugin to reference parent selectors
 
-https://github.com/toomuchdesign/postcss-nested-ancestors
-
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/komlev/postcss-current-selector.svg
 [ci]:      https://travis-ci.org/komlev/postcss-current-selector
